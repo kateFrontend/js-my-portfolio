@@ -407,18 +407,6 @@ font-size: 26px;
 font-size: 1.7rem;
 }
 
-/* portfolio section */
-
-/*buttons */
-
-/* .filterDiv {
-    display: none;
-  }
-
-  .show {
-    display: block;
-  } */
-
 .category-title {
   border: none;
   outline: none;
@@ -467,7 +455,7 @@ font-size: 1.7rem;
 }
 .container {
     min-height: 100vh;
-    margin: 3rem 0 8rem 0;
+    margin: 3rem 0 10rem 0;
 }
 
 .container .image-container .image {
@@ -596,7 +584,7 @@ font-size: 1.7rem;
 
 .footer{
     background: #fff;
-    border-top: 1px solid #000;
+    /* border-top: 1px solid #000; */
     padding:0 10%;
 }
 
@@ -650,6 +638,7 @@ font-size: 1.7rem;
     font-weight: normal;
     letter-spacing: .1rem;
     color:var(--dark);
+    margin-bottom: 5rem;
 }
 
 .fb {
@@ -687,7 +676,7 @@ font-size: 1.7rem;
     }
 
     .footer .credit{
-    font-size: 0.5rem;
+    font-size: 1rem;
     }
 }
 
