@@ -55,7 +55,7 @@ h3 {
     font-size: 1.7rem;
     padding:1rem 10rem;
     border-radius: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     background:none;
     color:var(--dark);
     cursor: pointer;
@@ -278,7 +278,7 @@ font-size: 26px;
     font-weight: 500;
 }
 
-.typing {
+.cursor, .animated-text {
     color: var(--color)
 }
 

@@ -28,13 +28,26 @@ function changeActivePosition(activeItem){
 
 // text animation
 
-gsap.to(".typing", {
-    text: "web developer",
-    duration: 2,
+const words = ['web developer', 'photographer', 'designer']
+
+gsap.to(".cursor", {
+    opacity: 0,
     repeat: -1,
-    repeatDelay: .7,
-    ease: "power1.in",
     yoyo: true,
+    duration: 0.5,
+    ease: "power2.inOut"
+});
+
+let tlMaster = gsap.timeline({ repeat: -1 });
+
+words.forEach((word) => {
+    let tlText = gsap.timeline({
+        repeat: 1,
+        yoyo: true,
+        repeatDelay: 1
+    });
+    tlText.to(".animated-text", { duration: 1.5, text: word, });
+    tlMaster.add(tlText);
 })
 
 gsap.to("h3", {
@@ -45,6 +58,7 @@ gsap.to("h3", {
     ease: "power1.in",
     yoyo: true,
 })
+
 
 // burger menu
 
