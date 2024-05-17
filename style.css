@@ -253,9 +253,9 @@ font-size: 26px;
 	z-index: -1;
 }
 
-.home .content{
+/* .home .content{
     flex:1 1 30rem;
-}
+} */
 
 .home .content .text-1{
     color: var(--dark);
